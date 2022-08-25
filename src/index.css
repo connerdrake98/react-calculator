@@ -45,6 +45,10 @@ body {
   background-color: rgb(253, 198, 158);
 }
 
+.padded-container {
+  padding: 1vh;
+}
+
 #title {
   margin-top: 2vh;
   width: 36vh;
@@ -54,7 +58,7 @@ body {
 
 #calculator {
   width: 50vh;
-  height: 58vh;
+  height: 57vh;
   margin-top: 2vh;
   background-color: lightslategray;
 }
