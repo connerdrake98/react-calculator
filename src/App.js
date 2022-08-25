@@ -127,9 +127,9 @@ function App() {
     <>
       <div
         id="title"
-        className="center fill border round-corners-1 text-center"
+        className=" center fill border flex round-corners-1 text-center"
       >
-        <h1>React Calculator</h1>
+        <h1 class="text-center">React Calculator</h1>
       </div>
       <Calculator charsEntered={charsEntered} handleinput={handleInput} />
     </>
