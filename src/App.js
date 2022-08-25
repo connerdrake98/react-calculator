@@ -1,9 +1,6 @@
-import { render } from "@testing-library/react";
-import { isCompositeComponent } from "react-dom/test-utils";
 import "./App.css";
 import { BUTTON_CONTAINERS } from "./ButtonContainers.js";
-import { useEffect, useState } from "react";
-import { parseInput } from "./Parser.js";
+import { useState } from "react";
 import { create, all } from "mathjs";
 
 const NUM_DIGITS = 24;
@@ -235,5 +232,8 @@ function Button({ id, style, handleinput }) {
     </div>
   );
 }
+
+// TODO resolve warnings
+// TODO store some functions in another file
 
 export default App;
