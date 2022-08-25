@@ -100,26 +100,6 @@ function App() {
           })
         );
       }
-      //let answer = eval(charsEntered.join(""));
-      //console.log(answer);
-      // From building parser...
-      /*
-      let validExpr = parseInput(charsEntered);
-
-      if (validExpr) {
-        // set field to correct answer, but for now clear it
-        setCharsEntered(DIGIT_KEYS.map(() => ""));
-      } else {
-        setCharsEntered(
-          DIGIT_KEYS.map((_, i) => {
-            if (i > 2) return "";
-            if (i === 0) return "e";
-            if (i <= 2) return "r";
-          })
-        );
-      }
-
-      */
     }
   };
 
