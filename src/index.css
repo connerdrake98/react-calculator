@@ -1,13 +1,74 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(209, 180, 159);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.fill {
+  background-color: chocolate;
+}
+
+.border {
+  border: 4px solid black;
+}
+
+.round-corners-1 {
+  border-radius: 1.5vw;
+}
+
+.round-corners-2 {
+  border-radius: 0.5vw;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+}
+
+.button-digit {
+  font-size: xx-large;
+  align-items: center;
+  justify-content: center;
+  background-color: chocolate;
+}
+
+.button-digit:hover {
+  background-color: rgb(253, 198, 158);
+}
+
+#title {
+  width: 40vw;
+}
+
+#calculator {
+  width: 60vw;
+  height: 55vw;
+  margin-top: 2vw;
+  background-color: lightslategray;
+}
+
+#screen {
+  width: 53vw;
+  height: 15vw;
+  margin-top: 2.5vw;
+  margin-bottom: 1vw;
+  background-color: darkseagreen;
+}
+
+#digit {
+  height: 40%;
+  width: 8%;
+  background-color: rgb(119, 163, 119);
+  font-size: xx-large;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
