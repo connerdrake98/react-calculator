@@ -1,3 +1,12 @@
+@media handheld (max-width: 1200) {
+  #digit {
+    font-size: large;
+  }
+  .border {
+    border: 2px solid black;
+  }
+}
+
 body {
   background-color: rgb(209, 180, 159);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -49,17 +58,16 @@ body {
 }
 
 #calculator {
-  width: 60vw;
-  height: 55vw;
-  margin-top: 2vw;
+  width: 560px;
+  height: 580px;
+  margin-top: 2vh;
   background-color: lightslategray;
 }
 
 #screen {
   width: 53vw;
   height: 15vw;
-  margin-top: 2.5vw;
-  margin-bottom: 1vw;
+  margin-top: 2.5vh;
   background-color: darkseagreen;
 }
 

@@ -1,22 +1,22 @@
 // structure button info into an object for each button and also add the button keys here so they can be added when the buttons are rendered
 
-const DEFAULT_BUTTON_HEIGHT = "18%";
-const DEFAULT_NUM_BUTTON_WIDTH = "25%";
-const DEFAULT_OP_BUTTON_WIDTH = "38%";
+const DEFAULT_BUTTON_HEIGHT = "8vh";
+const DEFAULT_NUM_BUTTON_WIDTH = "8.2vw";
+const DEFAULT_OP_BUTTON_WIDTH = "8vw";
 
 export const BUTTON_CONTAINERS = {
   id: "root-button-container",
   style: {
-    height: "65%",
-    width: "97%",
+    height: "45vh",
+    width: "80vw",
   },
   classes: "center flex",
   children: [
     {
       id: "numeric",
       style: {
-        height: "90%",
-        width: "58%",
+        height: "40vh",
+        width: "35vw",
       },
       classes: "center flex",
       buttons: [
@@ -102,8 +102,8 @@ export const BUTTON_CONTAINERS = {
     {
       id: "auxilliaries",
       style: {
-        height: "90%",
-        width: "38%",
+        height: "40vh",
+        width: "23vw",
       },
       classes: "center flex",
 
