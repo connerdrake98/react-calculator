@@ -47,20 +47,20 @@ body {
 
 #title {
   margin-top: 2vh;
-  width: 40vh;
+  width: 36vh;
   height: 7vh;
   font-size: 2vh;
 }
 
 #calculator {
-  width: 55vh;
-  height: 62vh;
+  width: 50vh;
+  height: 58vh;
   margin-top: 2vh;
   background-color: lightslategray;
 }
 
 #screen {
-  width: 48vh;
+  width: 43vh;
   height: 13vh;
   margin-top: 2.5vh;
   background-color: darkseagreen;
@@ -69,7 +69,7 @@ body {
 
 #digit {
   height: 6vh;
-  width: 3.6vh;
+  width: 3.18vh;
   margin: 0.2vh;
   background-color: rgb(119, 163, 119);
   font-size: 5vh;
