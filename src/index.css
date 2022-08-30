@@ -1,7 +1,7 @@
 :root {
   --root-height: 98vh;
   --default-calculator-width: min(5.5in, 90vw);
-  --default-calculator-height: min(6in, 105vw, 60vh);
+  --default-calculator-height: min(6in, 100vw, 60vh);
 
   --round-corner-border-radius-1: max(1.5vh, 8px);
   --round-corner-border-radius-2: max(0.5vh, 2px);
