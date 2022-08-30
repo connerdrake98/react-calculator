@@ -2,12 +2,12 @@
 
 const DEFAULT_BUTTON_HEIGHT = "20%";
 const DEFAULT_NUM_BUTTON_WIDTH = "27%";
-const DEFAULT_OP_BUTTON_WIDTH = "37%";
+const DEFAULT_OP_BUTTON_WIDTH = "39%";
 
 export const BUTTON_CONTAINERS = {
   id: "root-button-container",
   style: {
-    height: "70%",
+    height: "75%",
     width: "99%",
   },
   classes: "center flex",
@@ -15,8 +15,8 @@ export const BUTTON_CONTAINERS = {
     {
       id: "numeric",
       style: {
-        height: "93%",
-        width: "53%",
+        height: "85%",
+        width: "54%",
       },
       classes: "center flex padded-container",
       buttons: [
@@ -86,7 +86,7 @@ export const BUTTON_CONTAINERS = {
         {
           id: "0",
           style: {
-            width: "58%",
+            width: "60.5%",
             height: DEFAULT_BUTTON_HEIGHT,
           },
         },
@@ -102,8 +102,8 @@ export const BUTTON_CONTAINERS = {
     {
       id: "auxilliaries",
       style: {
-        height: "92%",
-        width: "38%",
+        height: "85.8%",
+        width: "37%",
       },
       classes: "center flex padded-container",
 

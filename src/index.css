@@ -1,10 +1,10 @@
 :root {
   --root-height: 98vh;
-  --default-calculator-width-in: 5in;
-  --default-calculator-height-in: 5.8in;
+  --default-calculator-width: min(5.5in, 90vw);
+  --default-calculator-height: min(6in, 105vw, 60vh);
 
-  --round-corner-border-radius-1: 1.5vh;
-  --round-corner-border-radius-2: 0.5vh;
+  --round-corner-border-radius-1: max(1.5vh, 8px);
+  --round-corner-border-radius-2: max(0.5vh, 2px);
   --default-border-size: max(0.45vh, 2px);
 }
 
@@ -36,8 +36,8 @@ body {
 }
 
 .text-center {
-  margin: auto;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .center {
@@ -45,7 +45,7 @@ body {
 }
 
 .button-digit {
-  font-size: 4vh;
+  font-size: max(4vh, 20px);
   align-items: center;
   justify-content: center;
   background-color: chocolate;
@@ -55,20 +55,19 @@ body {
   background-color: rgb(253, 198, 158);
 }
 
-.padded-container {
-  padding: 1vh;
-}
-
 #title {
   margin-top: 2vh;
+  margin-bottom: max(1vh, 0.1in);
   width: max(36vh, 2in);
   height: max(7vh, 0.25in);
   font-size: max(2vh, 8px);
 }
 
 #calculator {
-  width: max(min(var(--default-calculator-width-in), 60vh), 3in);
-  height: max(min(var(--default-calculator-height-in), 70vh), 3in);
+  width: max(min(var(--default-calculator-width), 60vh), 3in);
+  height: max(var(--default-calculator-height), 3in);
+  flex-direction: row;
+  justify-content: space-around;
   margin-top: 2vh;
   background-color: lightslategray;
 }
@@ -76,20 +75,21 @@ body {
 #screen {
   display: flex;
   justify-content: space-around;
+  align-content: space-around;
   width: 87%;
-  height: 13vh;
-  margin-top: 2.5vh;
+  height: min(max(13vh, 0.6in), 80vh);
+  margin-top: max(2vh, 0.1in);
   background-color: darkseagreen;
   padding: 0.5vh;
 }
 
 #digit {
-  height: 48%;
-  width: 7.4%;
-  margin: 0.2vh;
+  height: max(6vh, 48%);
+  width: max(7.55%, 0.2in);
+  margin: 0.14vh;
   background-color: rgb(119, 163, 119);
   font-size: 5vh;
+  display: flex;
   align-items: center;
   justify-content: center;
-  display: flex;
 }
