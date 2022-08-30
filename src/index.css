@@ -1,3 +1,13 @@
+:root {
+  --root-height: 98vh;
+  --default-calculator-width-in: 5in;
+  --default-calculator-height-in: 5.8in;
+
+  --round-corner-border-radius-1: 1.5vh;
+  --round-corner-border-radius-2: 0.5vh;
+  --default-border-size: max(0.45vh, 2px);
+}
+
 body {
   background-color: rgb(209, 180, 159);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -9,15 +19,15 @@ body {
 }
 
 .border {
-  border: 0.45vh solid black;
+  border: var(--default-border-size) solid black;
 }
 
 .round-corners-1 {
-  border-radius: 1.5vh;
+  border-radius: var(--round-corner-border-radius-1);
 }
 
 .round-corners-2 {
-  border-radius: 0.5vh;
+  border-radius: var(--round-corner-border-radius-2);
 }
 
 .flex {
@@ -51,20 +61,22 @@ body {
 
 #title {
   margin-top: 2vh;
-  width: 36vh;
-  height: 7vh;
-  font-size: 2vh;
+  width: max(36vh, 2in);
+  height: max(7vh, 0.25in);
+  font-size: max(2vh, 8px);
 }
 
 #calculator {
-  width: 50vh;
-  height: 57vh;
+  width: max(min(var(--default-calculator-width-in), 60vh), 3in);
+  height: max(min(var(--default-calculator-height-in), 70vh), 3in);
   margin-top: 2vh;
   background-color: lightslategray;
 }
 
 #screen {
-  width: 43vh;
+  display: flex;
+  justify-content: space-around;
+  width: 87%;
   height: 13vh;
   margin-top: 2.5vh;
   background-color: darkseagreen;
@@ -72,8 +84,8 @@ body {
 }
 
 #digit {
-  height: 6vh;
-  width: 3.18vh;
+  height: 48%;
+  width: 7.4%;
   margin: 0.2vh;
   background-color: rgb(119, 163, 119);
   font-size: 5vh;
